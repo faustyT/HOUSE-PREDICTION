@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 import os
 
-if not os.path.exists("kc_House_prediction.pkl"):
+if not os.path.exists("KC_House_prediction.pkl"):
     import download_model
     
 # Load the saved Random Forest model
